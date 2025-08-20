@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎓 Tuition Portal
 
-## Getting Started
+A modern multi-role tuition management system built with **Next.js (App Router)**, **MongoDB Atlas**, **NextAuth.js**, and **Tailwind CSS**.  
+It provides separate dashboards and features for **Admins**, **Teachers**, and **Students**.
 
-First, run the development server:
+> 🚧 **Project Status: Ongoing Development**  
+> This project is actively being built and new features are continuously added.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 👨‍💼 Admin
+- Manage Teachers (add, view, delete)
+- Manage Students (assign to classes)
+- Manage Classes (create, view, delete)
+- Manage Subjects (create, delete)
+- Assign Teachers to Subjects in Classes
+- Assign Students to Classes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 👨‍🏫 Teacher
+- View assigned Classes & Subjects
+- Upload Notes (files, resources)
+- Upload Marks as PDFs for entire classes
+- Share resources with students
 
-## Learn More
+### 👨‍🎓 Student
+- View Class & Subject details
+- Access Notes uploaded by teachers
+- View Marks (PDFs, reports)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
+- **Frontend:** [Next.js 14+ (App Router)](https://nextjs.org/), [React](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/), [Framer Motion](https://www.framer.com/motion/)
+- **Authentication:** [NextAuth.js](https://next-auth.js.org/)
+- **Backend:** Next.js API Routes
+- **Database:** [MongoDB Atlas](https://www.mongodb.com/atlas)
+- **Storage:** Cloudinary (for files & notes)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
+Future Improvements
 
-## Deploy on Vercel
+📊 Role-based analytics (charts & reports)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📅 Attendance management
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+💳 Online payments for tuition fees
+
+🔔 Notifications & messaging
+
+🎨 More UI enhancements
+
+
+
+## 📸 Screenshots
+
+![Admin Dashboard](./screenshots/admin.png)
+![Teacher Dashboard](./screenshots/teacher.png)
+![Student Dashboard](./screenshots/student.png)
+
+
